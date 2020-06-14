@@ -1,12 +1,5 @@
 //General keybinds
 void keyPressed(){
-  if(key == CODED){
-    if(keyCode == RIGHT){
-      angle += .05;
-    } else if(keyCode == LEFT){
-      angle -= .05;
-    }
-  }
   if (key == 'r') {
       scaleFactor = 1;
       translateX = 0.0;
